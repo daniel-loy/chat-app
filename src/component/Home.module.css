@@ -1,0 +1,82 @@
+.body{
+    height: 100vh;
+    /* background-image:; */
+    background-color: whitesmoke;
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height:60vh;
+    overflow-y: scroll;
+    scrollbar-width: none; 
+}
+
+
+.message{
+   max-width:70%;
+   border-radius: 20px;
+   margin:17px 12px;
+   padding:10px;
+   display: flex;
+   overflow-wrap: break-word;
+}
+.diagram{
+    margin: 10px;
+    max-width: 45x;
+    max-height: 45px;
+}
+.submessage{
+    padding:20px;
+    border-radius: 50px;
+    max-width:80%;
+    overflow-wrap: break-word;
+    background: linear-gradient(121.7deg, rgb(41, 116, 250) 22.9%, rgb(67, 212, 255) 69%);
+    font-family: 'Times New Roman', Times, serif;
+}
+.submessageleft{
+    padding:20px;
+    border-radius: 50px;
+    max-width:80%;
+    overflow-wrap: break-word;
+    background:white;
+    /* border: 2px solid while; */
+    box-shadow: 2px gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+.left{
+    align-self: flex-start;
+  
+}
+.right{
+    align-self:flex-end ;
+}
+#sendcontainer{
+    display:flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#messageInp{
+    width: 70%;
+    border:2px solid  rgba(41, 132, 250, 0.405);
+    border-radius: 6px;
+    height: 35px;
+    align-self: center;
+}
+
+#messageInp:focus {
+    border: 1px solid rgba(41, 132, 250, 0.405);
+    outline: none; /* Optionally remove the default outline */
+  }
+.btn{
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 50px;
+    height: 34px;
+    width: 5vh;
+    margin:10px
+}
